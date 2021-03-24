@@ -17,7 +17,7 @@ namespace ProjetoAspNet.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Projeto ASP.Net - Feito por JuanZCC";
 
             return View();
         }
