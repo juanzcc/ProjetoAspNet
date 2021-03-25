@@ -14,6 +14,9 @@ namespace ProjetoAspNet.Data
         {
         }
 
-        public DbSet<ProjetoAspNet.Models.Departamento> Departamento { get; set; }
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<Vendedor> Vendedor { get; set; }
+        public DbSet<RegistroVendedores> RegistroVendedores { get; set; }
+
     }
 }
